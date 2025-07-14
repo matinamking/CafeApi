@@ -3,6 +3,11 @@
         "builder": "nixpacks"
     },
     "run": {
-        "port": 8000
+        "port": 8000,
+        "postDeployCommand": [
+            "php artisan migrate --force",
+            "php artisan config:cache",
+            "php artisan route:cache"
+        ]
     }
 }
