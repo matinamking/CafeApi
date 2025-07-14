@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59114f059eb13554ec70c47ff445f82e",
+    "content-hash": "46ea7022a88e67a826e0f1a119ae23c7",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2059,6 +2059,51 @@
                 }
             ],
             "time": "2025-02-03T10:55:03+00:00"
+        },
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v269",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "04aa321ffd7a25205f49dfdb949ad9bb3eae9388"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/04aa321ffd7a25205f49dfdb949ad9bb3eae9388",
+                "reference": "04aa321ffd7a25205f49dfdb949ad9bb3eae9388",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "nginx",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/heroku/heroku-buildpack-php/issues",
+                "source": "https://github.com/heroku/heroku-buildpack-php/tree/v269"
+            },
+            "time": "2025-07-04T14:44:20+00:00"
         },
         {
             "name": "kirschbaum-development/eloquent-power-joins",
