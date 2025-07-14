@@ -1,11 +1,8 @@
 {
     "build": {
-        "buildpacks": [
-            "https://github.com/heroku/heroku-buildpack-php"
-        ]
+        "builder": "nixpacks"
     },
     "run": {
-        "port": 8000,
-        "postDeployCommand": "php artisan migrate --force"
+        "port": 8000
     }
 }
