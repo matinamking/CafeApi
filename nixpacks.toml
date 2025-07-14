@@ -1,0 +1,5 @@
+# nixpacks.toml
+
+[phases.setup]
+# بسته وب سرور آپاچی را به محیط اضافه می‌کند.
+nixPkgs = ["apacheHttpd"]
