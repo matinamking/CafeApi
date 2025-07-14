@@ -1,0 +1,10 @@
+{
+    "build": {
+        "buildpacks": [
+            "https://github.com/heroku/heroku-buildpack-php"
+        ]
+    },
+    "run": {
+        "port": 8000
+    }
+}
