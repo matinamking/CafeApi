@@ -35,11 +35,6 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
-            "php artisan migrate --force",
-            "php artisan config:cache",
-            "php artisan route:cache"
-        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
